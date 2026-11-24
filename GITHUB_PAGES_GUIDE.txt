@@ -1,0 +1,27 @@
+GITHUB PAGES PUBLISHING GUIDE (BEGINNER)
+
+A. Sign in to your GitHub account.
+B. Create a new repository:
+   - Repository name: gift-agui-portfolio
+   - Choose Public
+   - Do not add a README or licence (the portfolio folder already has a README).
+   - Click Create repository.
+C. Upload the website files:
+   - Click Add file, then Upload files.
+   - Extract the portfolio ZIP on your computer first.
+   - Open the extracted folder and select all its contents:
+     index.html, style.css, script.js, portrait.png, README.md, .nojekyll and other included files.
+   - Drag the files into GitHub's upload area.
+   - Click Commit changes.
+D. Turn on GitHub Pages:
+   - Open the repository's Settings.
+   - Select Pages from the left menu.
+   - Under Build and deployment, choose Deploy from a branch.
+   - Select main and /(root), then Save.
+E. Wait a few minutes and refresh the Pages screen. GitHub will display the published website address.
+
+IMPORTANT:
+- Upload the extracted website files, not the ZIP archive itself.
+- Never share your GitHub password or verification codes.
+- Replace the contact placeholders before making the portfolio public.
+- GitHub Pages hosts this static portfolio website. It does not host the Python/Flask or FastAPI backends for your other projects.
